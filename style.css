@@ -117,16 +117,15 @@
 
     .newsletter {
         clear: both;
-        justify-content: center;
-        width: 17.0rem; 
+        width: 10.0rem; 
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
         margin-right: 0.2rem;
-        margin-left: 1.2rem;
+        margin-left: 1.3rem;
     }
     
     .newsletter label {
         text-align:right;
-        margin-right: 0.25rem;
+        margin-left: 7.0rem;
         font-size: 1.0rem;
     }
     .newsletter input {
@@ -144,6 +143,7 @@
     background-color: #4CAF50;
     height: 2.5rem;
     font-size: 1.0rem;
+    margin-left: 1.3rem;
     }
 }
 
@@ -297,7 +297,6 @@
 
     .newsletter {
         clear: both;
-        justify-content: center;
         width: 25.0rem; 
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
         margin-right: 39.2rem;
