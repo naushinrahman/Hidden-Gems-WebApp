@@ -1,0 +1,326 @@
+@media only screen and (max-width: 400px)  { /*MOBILE*/
+    body {
+        font-size: 0.8rem;
+        line-height: 1.618;
+        color: #070604ea;
+        margin: 0px;
+        text-align: center;
+        background-color:#fffdf7;
+      }
+    
+      h1, h2, h3, h4 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin: 1.0rem;
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
+        padding: 0;
+    }
+
+    img {
+        width: 75%;
+        height: 22.5rem;
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 0px;
+    } 
+
+    .blue {
+        background-color: #def1ff;
+        color: #006a91;
+        padding-bottom: 0.625rem;
+        margin-left: 2.0rem;
+        margin-right: 2.0rem;
+    }
+
+    .blue-header {
+        font-weight: bold;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 0.5rem;
+    } 
+
+    .black-text {
+        color: #070604ea;
+    }
+    
+    .blue img {
+        border: 2px solid #0677a1;
+    }
+    
+    .pink {
+        background-color: #ffe7f2; 
+        color: #622E55;
+        margin-left: 2.0rem;
+        margin-right: 2.0rem;
+    }
+    
+    .pink img {
+        border: 2px solid #e9639f;
+    }
+    
+    .green {
+        background-color: #d5f5bb;
+        color: #317001;
+        padding-bottom: 0.625rem;
+        margin-left: 2.0rem;
+        margin-right: 2.0rem;
+    }
+    
+    .green img {
+        border: 2px solid #317001;
+    }
+    
+    .menu-container {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        background-color: #c45eab;
+    }
+    
+    #menu {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        float: right;
+        margin-right: 2.0rem;
+    }
+    
+    ul#menu li {
+       margin-left: 1rem;
+    }
+    
+    ul#menu li.list a {
+        display: block;
+        color: #ffecfc;
+        text-decoration: none;
+        text-align: center;
+        text-shadow: #0677a1;
+        font-family: 'Arial Nova Light';
+    }
+    
+    #logo {
+        padding: 0.5rem;
+        float:left;
+        width: 2.0rem;
+        height: 2.0rem;
+        padding-left: 2.0rem;
+    }
+
+    .newsletter {
+        clear: both;
+        justify-content: center;
+        width: 17.0rem; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+        margin-right: 0.2rem;
+        margin-left: 1.2rem;
+    }
+    
+    .newsletter label {
+        text-align:right;
+        margin-right: 0.25rem;
+        font-size: 1.0rem;
+    }
+    .newsletter input {
+        float: center;
+        clear: both;
+        width: 15.0rem;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        color: white;
+      }
+
+    input[type="submit"] {
+    background-color: #4CAF50;
+    height: 2.5rem;
+    font-size: 1.0rem;
+    }
+}
+
+@media only screen and (min-width: 400px)  { /*DESKTOP*/
+    body {
+        text-align: center;
+        line-height: 1.618;
+        align-items: center;
+        background-color:#fffdf5;
+        margin: 0;
+      
+    }
+    
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-bottom: 0.5rem;
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2.4rem;
+    }
+
+    h3, h4 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    p {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 0.5rem;
+        padding-top: 0.1rem;
+        font-size: 1.5rem;
+      } 
+    
+    img {
+        width: 30.0rem;
+        height: 36.0rem;
+    }
+
+    .blue {
+        background-color: #def1ff;
+        color: #006a91;
+        margin-right: 8.2rem;
+        margin-left: 8.2rem;
+    }
+    
+    .blue-header {
+        font-weight: bold;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 0.5rem;
+        margin-bottom: 0.1rem;
+    } 
+
+    .black-text {
+        color: #070604ea;
+        margin-top: 0.5rem;
+    }
+    
+    .blue img {
+        border: 0.2rem solid #0677a1;
+    }
+    
+    .pink {
+        background-color: #ffe7f2;;
+        color: #622E55;
+        margin-right: 8.2rem;
+        margin-left: 8.2rem;
+    }
+    
+    .pink img {
+        border: 0.2rem solid #e9639f;
+    }
+    
+    .green {
+        background-color: #e1f0d6;
+        color: #317001;
+        margin-right: 8.2rem;
+        margin-left: 8.2rem;
+    }
+    
+    .green img {
+        border: 0.2rem solid #317001;
+    }
+
+    .menu-container {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        background-color: #c45eab;
+    }
+    
+    #menu {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        float: right;
+        margin-right: 8.2rem;
+    }
+    
+    ul#menu li {
+       margin-left: 1rem;
+    }
+    
+    ul#menu li.list a {
+        display: block;
+        color: #ffecfc;
+        text-decoration: none;
+        text-align: center;
+        text-shadow: #0677a1;
+        font-family: 'Arial Nova Light';
+    }
+    
+    #logo {
+        padding: 0.5rem;
+        float:left;
+        width: 5.5rem;
+        height: 5.5rem;
+        padding-left: 8.2rem;
+    }
+
+    .container-1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .container-2 {
+        column-count: 2;
+        column-gap: 6.5rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-top: 1.0rem;
+    }
+
+    .container-3 {
+        margin-right: 8.2rem;
+        margin-left: 8.2rem;
+    }
+
+    .newsletter {
+        clear: both;
+        justify-content: center;
+        width: 25.0rem; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+        margin-right: 39.2rem;
+        margin-left: 39.2rem;
+    }
+    
+    .newsletter label {
+        text-align:right;
+        margin-right:5px;
+        font-size: 1.5rem;
+    }
+    .newsletter input {
+        float: center;
+        clear: both;
+        width: 22.0rem;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        color: white;
+      }
+
+    input[type="submit"] {
+    background-color: #4CAF50;
+    height: 3.8rem;
+    font-size: 1.8rem;
+    }
+
+}
+
