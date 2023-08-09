@@ -117,21 +117,21 @@
 
     .newsletter {
         clear: both;
-        width: 10.0rem; 
+        width: 14.0rem; 
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
         margin-right: 0.2rem;
-        margin-left: 1.3rem;
+        margin-left: 2.0rem;
     }
     
     .newsletter label {
         text-align:right;
-        margin-left: 7.0rem;
+        margin-left: 1.0rem;
         font-size: 1.0rem;
     }
     .newsletter input {
         float: center;
         clear: both;
-        width: 15.0rem;
+        width: 10.0rem;
         padding: 10px 20px;
         border: none;
         border-radius: 4px;
@@ -142,8 +142,9 @@
     input[type="submit"] {
     background-color: #4CAF50;
     height: 2.5rem;
+    width: 7.0rem;
     font-size: 1.0rem;
-    margin-left: 1.3rem;
+    margin-left: 1.0rem;
     }
 }
 
