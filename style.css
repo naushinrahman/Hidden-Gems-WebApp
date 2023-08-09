@@ -29,7 +29,6 @@
         padding-left: 1.6rem;
         padding-right: 1.6rem;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin: 0px;
     } 
 
     .blue {
@@ -55,7 +54,7 @@
     }
     
     .pink {
-        background-color: #ffe7f2; 
+        background-color: #f8d4e4; 
         color: #622E55;
         margin-left: 2.0rem;
         margin-right: 2.0rem;
@@ -110,7 +109,7 @@
     
     #logo {
         padding: 0.5rem;
-        float:left;
+        float: left;
         width: 2.0rem;
         height: 2.0rem;
         padding-left: 2.0rem;
@@ -160,8 +159,8 @@
     
     h1 {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        padding-bottom: 0.5rem;
         font-size: 3.5rem;
+        margin-bottom: 1.0rem;
     }
 
     h2 {
@@ -209,10 +208,14 @@
     }
     
     .pink {
-        background-color: #ffe7f2;;
+        background-color: #f8d4e4;
         color: #622E55;
         margin-right: 8.2rem;
         margin-left: 8.2rem;
+    }
+
+    .pink p {
+        margin: 0;
     }
     
     .pink img {
@@ -263,7 +266,7 @@
     
     #logo {
         padding: 0.5rem;
-        float:left;
+        float: left;
         width: 5.5rem;
         height: 5.5rem;
         padding-left: 8.2rem;
@@ -276,6 +279,7 @@
         justify-content: space-evenly;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
+        margin: 2.5rem 0;
     }
 
     .container-2 {
@@ -318,7 +322,7 @@
 
     input[type="submit"] {
     background-color: #4CAF50;
-    height: 3.8rem;
+    height: 3.5rem;
     font-size: 1.8rem;
     }
 
