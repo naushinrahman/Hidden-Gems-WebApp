@@ -7,5 +7,12 @@ window.reviewData = [
         date: '2023-08-09',
         rating: '5/5',
         comment: 'Its so peaceful and serene, i love listening to the birds',
+    },
+    {
+        location: 'Midori Ramen',
+        name:'Naushin',
+        date: '2023-08-09',
+        rating: '5/5',
+        comment: 'Its so peaceful and serene, i love listening to the birds',
     }
 ];
