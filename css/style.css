@@ -153,7 +153,7 @@
     }
 }
 
-@media only screen and (min-width: 400px)  { /*DESKTOP*/
+ /*DESKTOP*/
     body {
         text-align: center;
         line-height: 1.618;
@@ -209,9 +209,6 @@
         margin-top: 0.5rem;
     }
     
-    .blue img {
-        border: 0.2rem solid #0677a1;
-    }
     
     .pink {
         background-color: #f8d4e4;
@@ -224,9 +221,6 @@
         margin: 0;
     }
     
-    .pink img {
-        border: 0.2rem solid #e9639f;
-    }
     
     .green {
         background-color: #e1f0d6;
@@ -240,9 +234,6 @@
         text-decoration: none;
     }
     
-    .green img {
-        border: 0.2rem solid #317001;
-    }
 
     .menu-container {
         display: flex;
@@ -336,5 +327,42 @@
     font-size: 1.8rem;
     }
 
-}
+    #review-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+    .reviewCards {
+        height: 100%;
+        width: 100%;
+    }
+
+    .card-rating {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 1.3em;
+        color: #a4c1d7;
+      }
+      
+      .card-text {
+        margin-top: 0%;
+        margin-bottom: 5%;
+        letter-spacing: 0.2em;
+        line-height: 1.8em;
+        font-size: 1em;
+        color: #888;
+      }
+      
+      .card-date {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        font-size: 0.85em;
+        color: #888;
+      }
+      
+      .card-name {
+        margin-top: 0%;
+        margin-bottom: 2%;
+        font-size: 0.8em;
+        color: #888;
+      }
