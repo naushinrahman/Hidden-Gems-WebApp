@@ -71,6 +71,11 @@
         margin-left: 2.0rem;
         margin-right: 2.0rem;
     }
+
+    .green a {
+        color: #317001;
+        text-decoration: none;
+    }
     
     .green img {
         border: 2px solid #317001;
@@ -228,6 +233,11 @@
         color: #317001;
         margin-right: 8.2rem;
         margin-left: 8.2rem;
+    }
+    
+    .green a {
+        color: #317001;
+        text-decoration: none;
     }
     
     .green img {
