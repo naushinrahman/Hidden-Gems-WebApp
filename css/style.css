@@ -161,7 +161,7 @@
 
     h2 {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 2.4rem;
+        font-size: 2.5rem;
     }
 
     h3, h4 {
@@ -169,10 +169,10 @@
     }
     
     p {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: 'Quicksand', sans-serif;
         padding-bottom: 0.5rem;
         padding-top: 0.1rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       } 
     
     img {
@@ -192,6 +192,7 @@
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin-top: 0.5rem;
         margin-bottom: 0.1rem;
+        font-size: 1.5rem;
     } 
 
     .black-text {
@@ -258,7 +259,6 @@
 
     ul#menu li.list a:hover {
         display: block;
-        background-color: #da40c2;
         font-size: 110%;
     }
     
@@ -302,7 +302,7 @@
     .newsletter {
         clear: both;
         width: 25.0rem; 
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+        font-family: 'Quicksand', sans-serif;  
         margin-bottom: 1.0rem;
     }
     
@@ -320,10 +320,11 @@
         border-radius: 4px;
         cursor: pointer;
         color: white;
+        font-family: 'Quicksand', sans-serif;  
       }
 
     input[type="submit"] {
-        background-color: #4CAF50;
+        background-color: #317001;
         height: 3.0rem;
         font-size: 1.5rem;
         width: 8.0rem;
@@ -336,19 +337,18 @@
         margin-right: 8.2rem;
         align-items: flex-start;
         justify-content: space-evenly;
-        margin-bottom: 0.5rem;
+        margin-top: 2.0rem;
     }
     
-    .reviewCards {
+    .review-cards {
         height: 20.0rem;
         width: 26.0rem;
-        margin-top: 1.0rem;
         background-color: #def1ff;
         border: #006a91 dotted;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2.0rem;
     }
     
-    .reviewCards p {
+    .review-cards p {
         margin-top: 0;
         margin-bottom: 0;
         font-family: 'Quicksand', sans-serif;
