@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @media only screen and (max-width: 400px)  { /*MOBILE*/
     body {
         font-size: 0.8rem;
@@ -49,10 +50,6 @@
         color: #070604ea;
     }
     
-    .blue img {
-        border: 2px solid #0677a1;
-    }
-    
     .pink {
         background-color: #f8d4e4; 
         color: #622E55;
@@ -60,9 +57,6 @@
         margin-right: 2.0rem;
     }
     
-    .pink img {
-        border: 2px solid #e9639f;
-    }
     
     .green {
         background-color: #d5f5bb;
@@ -77,9 +71,6 @@
         text-decoration: none;
     }
     
-    .green img {
-        border: 2px solid #317001;
-    }
     
     .menu-container {
         display: flex;
@@ -101,6 +92,7 @@
     
     ul#menu li {
        margin-left: 1rem;
+       font-family: 'Arial Nova Light';
     }
     
     ul#menu li.list a {
@@ -108,7 +100,6 @@
         color: #ffecfc;
         text-decoration: none;
         text-align: center;
-        text-shadow: #0677a1;
         font-family: 'Arial Nova Light';
     }
     
@@ -262,8 +253,13 @@
         color: #ffecfc;
         text-decoration: none;
         text-align: center;
-        text-shadow: #0677a1;
         font-family: 'Arial Nova Light';
+    }
+
+    ul#menu li.list a:hover {
+        display: block;
+        background-color: #da40c2;
+        font-size: 110%;
     }
     
     #logo {
@@ -340,31 +336,33 @@
         margin-right: 8.2rem;
         align-items: flex-start;
         justify-content: space-evenly;
+        margin-bottom: 0.5rem;
     }
-
+    
     .reviewCards {
         height: 20.0rem;
         width: 26.0rem;
-        border-style: outset;
         margin-top: 1.0rem;
+        background-color: #def1ff;
+        border: #006a91 dotted;
+        margin-bottom: 1.5rem;
     }
-
+    
     .reviewCards p {
         margin-top: 0;
         margin-bottom: 0;
+        font-family: 'Quicksand', sans-serif;
     }
     
     .card-rating {
-        margin-top: 5%;
-        margin-bottom: 5%;
         font-size: 1.3em;
     }
     
     .card-text {
         font-size: 1.2em;
         line-height: 1.8em;
-        margin-left: 1.2rem;
-        margin-right: 1.2rem;
+        margin-left: 1.4rem;
+        margin-right: 1.4rem;
       }
       
       .card-date {
@@ -376,4 +374,11 @@
       .card-name {
         font-size: 1.2em;
       } 
+
+      .card-location {
+        color: #006a91;
+        font-size: 1.6rem;
+        margin-bottom: 0.8rem;
+        margin-top: 1.2rem;
+      }
 
