@@ -43,7 +43,7 @@ function reviewCards() {
   
     reviewData.forEach((review) => {
       const card = document.createElement("div");
-      card.classList.add("reviewCards");
+      card.classList.add("review-cards");
   
       const rating = document.createElement("p");
       rating.classList.add("card-rating");
