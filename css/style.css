@@ -157,7 +157,6 @@
     body {
         text-align: center;
         line-height: 1.618;
-        align-items: center;
         background-color:#fffdf5;
         margin: 0;
       
@@ -179,7 +178,7 @@
     }
     
     p {
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         padding-bottom: 0.5rem;
         padding-top: 0.1rem;
         font-size: 1.5rem;
@@ -227,6 +226,7 @@
         color: #317001;
         margin-right: 8.2rem;
         margin-left: 8.2rem;
+        margin-bottom: 2.0rem;
     }
     
     .green a {
@@ -297,12 +297,17 @@
         margin-left: 8.2rem;
     }
 
+    .container-4 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
     .newsletter {
         clear: both;
         width: 25.0rem; 
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
-        margin-right: 39.2rem;
-        margin-left: 39.2rem;
+        margin-bottom: 1.0rem;
     }
     
     .newsletter label {
@@ -313,8 +318,8 @@
     .newsletter input {
         float: center;
         clear: both;
-        width: 22.0rem;
-        padding: 10px 20px;
+        width: 20.0rem;
+        padding: 10px 1.5rem;
         border: none;
         border-radius: 4px;
         cursor: pointer;
@@ -322,47 +327,53 @@
       }
 
     input[type="submit"] {
-    background-color: #4CAF50;
-    height: 3.5rem;
-    font-size: 1.8rem;
+        background-color: #4CAF50;
+        height: 3.0rem;
+        font-size: 1.5rem;
+        width: 8.0rem;
     }
 
     #review-container {
         display: flex;
         flex-wrap: wrap;
+        margin-left: 8.2rem;
+        margin-right: 8.2rem;
+        align-items: flex-start;
+        justify-content: space-evenly;
     }
 
     .reviewCards {
-        height: 100%;
-        width: 100%;
+        height: 20.0rem;
+        width: 26.0rem;
+        border-style: outset;
+        margin-top: 1.0rem;
     }
 
+    .reviewCards p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
     .card-rating {
         margin-top: 5%;
         margin-bottom: 5%;
         font-size: 1.3em;
-        color: #a4c1d7;
-      }
-      
-      .card-text {
-        margin-top: 0%;
-        margin-bottom: 5%;
-        letter-spacing: 0.2em;
+    }
+    
+    .card-text {
+        font-size: 1.2em;
         line-height: 1.8em;
-        font-size: 1em;
-        color: #888;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
       }
       
       .card-date {
         margin-top: 0%;
         margin-bottom: 0%;
-        font-size: 0.85em;
-        color: #888;
+        font-size: 1.2em;
       }
       
       .card-name {
-        margin-top: 0%;
-        margin-bottom: 2%;
-        font-size: 0.8em;
-        color: #888;
-      }
+        font-size: 1.2em;
+      } 
+

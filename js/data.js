@@ -61,14 +61,14 @@ function reviewCards() {
       name.textContent = `(${review.name})`;
       name.classList.add("card-name");
 
-      const location = document.createElement("p");
+      const location = document.createElement("h3");
       location.textContent = review.location;
 
+      card.appendChild(location);
       card.appendChild(rating);
       card.appendChild(reviewText);
-      card.appendChild(date);
       card.appendChild(name);
-      card.appendChild(location);
+      card.appendChild(date);
   
       reviewCont.appendChild(card);
     });
