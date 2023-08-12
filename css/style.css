@@ -26,6 +26,12 @@
         margin-bottom: 0.5rem;
     }
 
+    video {
+        height: 22.5rem;
+        width: 15.0rem;
+        margin-bottom: 0.5rem;
+    }
+
     p {
         padding-left: 1.6rem;
         padding-right: 1.6rem;
@@ -233,6 +239,12 @@
         margin-bottom: 1.0rem;
     }
 
+    video {
+        height: 34.0rem;
+        width: 19.0rem;
+        margin-bottom: 1.0rem;
+    }
+
     .blue {
         background-color: #def1ff;
         color: #006a91;
@@ -330,7 +342,7 @@
         justify-content: space-evenly;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
-        margin-top: 2.5rem;
+        margin-top: 1.0rem;
         margin-bottom: 1.0rem;
     }
 
