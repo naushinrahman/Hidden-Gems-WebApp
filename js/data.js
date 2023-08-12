@@ -5,7 +5,7 @@ window.reviewData = [
         name:'Sarah M.',
         date: '2023/04/10',
         rating: '3',
-        comment: 'Its kinda boring and there is not much to do here.',
+        comment: 'Its kinda boring and there isnt much to do here. View is nice and its lowkey but idk if its worth the trek',
     },
     {
         location: 'Grey Abbey Park',

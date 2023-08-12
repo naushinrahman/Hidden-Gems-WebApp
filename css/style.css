@@ -57,7 +57,6 @@
         margin-right: 2.0rem;
     }
     
-    
     .green {
         background-color: #d5f5bb;
         color: #317001;
@@ -71,7 +70,9 @@
         text-decoration: none;
     }
     
-    
+    .green h2 {
+        margin-top: 0;
+    }
     .menu-container {
         display: flex;
         justify-content: space-between; 
@@ -115,13 +116,11 @@
         clear: both;
         width: 14.0rem; 
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
-        margin-right: 0.2rem;
-        margin-left: 2.0rem;
+        margin-left: 3.2rem;
     }
     
     .newsletter label {
         text-align:right;
-        margin-left: 1.0rem;
         font-size: 1.0rem;
     }
     .newsletter input {
@@ -136,15 +135,68 @@
       }
 
     input[type="submit"] {
-    background-color: #4CAF50;
-    height: 2.5rem;
-    width: 7.0rem;
+    background-color: #317001;
+    height: 2.4rem;
+    width: 5.0rem;
     font-size: 1.0rem;
-    margin-left: 1.0rem;
     }
+
+    #review-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 2.0rem;
+        margin-right: 2.0rem;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        margin-top: 1.0rem;
+        margin-bottom: 0;
+    }
+    
+    .review-cards {
+        height: 16.5rem;
+        width: 18.0rem;
+        background-color: #def1ff;
+        border: #006a91 dotted;
+        margin-bottom: 1.5rem;
+    }
+    
+    .review-cards p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 0.3rem;
+    }
+    
+    .card-rating {
+        font-size: 1.2rem;
+    }
+    
+    .card-text {
+        font-size: 1.2em;
+        line-height: 1.6em;
+        margin-left: 0rem;
+        margin-right: 0rem;
+      }
+      
+      .card-date {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        font-size: 1.2em;
+      }
+      
+      .card-name {
+        font-size: 1.2em;
+      } 
+
+      .card-location {
+        color: #006a91;
+        font-size: 1.3rem;
+        margin-top: 1.2rem;
+        margin-bottom: 0.2rem;
+      }
 }
 
- /*DESKTOP*/
+@media only screen and (min-width: 400px)  { /*DESKTOP*/
     body {
         text-align: center;
         line-height: 1.618;
@@ -177,7 +229,8 @@
     
     img {
         width: 30.0rem;
-        height: 36.0rem;
+        height: 34.0rem;
+        margin-bottom: 1.0rem;
     }
 
     .blue {
@@ -277,7 +330,8 @@
         justify-content: space-evenly;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
-        margin: 2.5rem 0;
+        margin-top: 2.5rem;
+        margin-bottom: 1.0rem;
     }
 
     .container-2 {
@@ -381,4 +435,5 @@
         margin-bottom: 0.8rem;
         margin-top: 1.2rem;
       }
-
+    
+    }
