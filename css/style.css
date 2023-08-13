@@ -12,7 +12,8 @@
       h1, h2, h3, h4 {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
-        margin: 1.0rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.0rem;
         margin-left: 0.625rem;
         margin-right: 0.625rem;
         padding: 0;
@@ -71,14 +72,15 @@
         margin-right: 2.0rem;
     }
 
+    .container-1 {
+        margin-top: 1.5rem;
+    }
+
     .green a {
         color: #317001;
         text-decoration: none;
     }
     
-    .green h2 {
-        margin-top: 0;
-    }
     .menu-container {
         display: flex;
         justify-content: space-between; 
@@ -133,18 +135,44 @@
         float: center;
         clear: both;
         width: 10.0rem;
-        padding: 10px 20px;
+        padding: 10px 0.2rem;
         border: none;
         border-radius: 4px;
         cursor: pointer;
-        color: white;
+        background-color: white;
       }
 
-    input[type="submit"] {
-    background-color: #317001;
-    height: 2.4rem;
-    width: 5.0rem;
-    font-size: 1.0rem;
+    input[type] {
+        margin-top: 0.5em;
+        padding: 0.2em 0.5em;
+        width: 9.7em;
+        height: 1.9em;
+        background-color: white;
+        border-radius: 4px;
+        border-style: hidden;
+        font-size: 1em;
+        color: #1f4701;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    textarea {
+        margin-top: 0.5rem;
+        border-style: hidden;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.0rem;
+        border-radius: 4px;
+    }
+
+    button {
+        font-family: 'Quicksand', sans-serif;
+        background-color: #317001;
+        border-style: hidden;
+        height: 2.4rem;
+        width: 5.0rem;
+        font-size: 1.0rem;
+        color: white;
+        border-radius: 4px;
+        margin-top: 0.5rem;
     }
 
     #review-container {
@@ -154,16 +182,17 @@
         margin-right: 2.0rem;
         align-items: flex-start;
         justify-content: space-evenly;
-        margin-top: 1.0rem;
         margin-bottom: 0;
     }
+
     
     .review-cards {
         height: 16.5rem;
         width: 18.0rem;
         background-color: #def1ff;
         border: #006a91 dotted;
-        margin-bottom: 1.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1.0rem;
     }
     
     .review-cards p {
@@ -184,22 +213,40 @@
         margin-right: 0rem;
       }
       
-      .card-date {
+    .card-date {
         margin-top: 0%;
         margin-bottom: 0%;
         font-size: 1.2em;
-      }
-      
-      .card-name {
+    }
+    
+    .card-name {
         font-size: 1.2em;
-      } 
+    } 
 
-      .card-location {
+    .card-location {
         color: #006a91;
         font-size: 1.3rem;
         margin-top: 1.2rem;
         margin-bottom: 0.2rem;
-      }
+    }
+
+    #reviewForm {
+        border-radius: 4px;
+    }
+
+    #location {
+        margin-top: 0.5em;
+        padding: 0.2em 0.5em;
+        width: 9.7em;
+        height: 1.9em;
+        background-color: white;
+        border-radius: 4px;
+        border-style: hidden;
+        font-size: 1em;
+        color: #1f4701;
+        font-family: 'Quicksand', sans-serif;
+    }
+
 }
 
 @media only screen and (min-width: 400px)  { /*DESKTOP*/
@@ -220,6 +267,7 @@
     h2 {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 2.5rem;
+        margin-bottom: 1.0rem;
     }
 
     h3, h4 {
@@ -279,7 +327,7 @@
     
     
     .green {
-        background-color: #e1f0d6;
+        background-color: #d5f5bb;
         color: #317001;
         margin-right: 8.2rem;
         margin-left: 8.2rem;
@@ -291,7 +339,6 @@
         text-decoration: none;
     }
     
-
     .menu-container {
         display: flex;
         justify-content: space-between; 
@@ -342,7 +389,7 @@
         justify-content: space-evenly;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
-        margin-top: 1.0rem;
+        margin-top: 2.5rem;
         margin-bottom: 1.0rem;
     }
 
@@ -381,19 +428,46 @@
         float: center;
         clear: both;
         width: 20.0rem;
-        padding: 10px 1.5rem;
+        padding: 0.625rem 0.8rem;
         border: none;
         border-radius: 4px;
         cursor: pointer;
-        color: white;
+        background-color: white;
         font-family: 'Quicksand', sans-serif;  
       }
 
-    input[type="submit"] {
+    input[type] {
+        margin-top: 0.5em;
+        padding: 0.2em 0.5em;
+        width: 9.7em;
+        height: 1.9em;
+        background-color: white;
+        border-radius: 4px;
+        border-style: hidden;
+        font-size: 1em;
+        color: #1f4701;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    textarea {
+        margin-top: 0.5rem;
+        border-style: hidden;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.0rem;
+        border-radius: 4px;
+    }
+
+    button {
+        font-family: 'Quicksand', sans-serif;
         background-color: #317001;
-        height: 3.0rem;
-        font-size: 1.5rem;
-        width: 8.0rem;
+        border-style: hidden;
+        height: 2.4rem;
+        width: 5.0rem;
+        font-size: 1.0rem;
+        color: white;
+        border-radius: 4px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
     }
 
     #review-container {
@@ -447,5 +521,17 @@
         margin-bottom: 0.8rem;
         margin-top: 1.2rem;
       }
-    
+
+      #location {
+        margin-top: 0.5em;
+        padding: 0.2em 0.5em;
+        width: 9.7em;
+        height: 1.9em;
+        background-color: white;
+        border-radius: 4px;
+        border-style: hidden;
+        font-size: 1em;
+        color: #1f4701;
+        font-family: 'Quicksand', sans-serif;
+      }
     }

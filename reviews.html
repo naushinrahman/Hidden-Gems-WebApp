@@ -26,6 +26,25 @@
             </div>
             <div class="green">
                 <h2>Add a Review</h2>
+                <form id="reviewForm">
+                    <select name="location" id="location">
+                        <option value="GA">Grey Abbey Park</option>
+                        <option value="SM">Saving Mondays</option>
+                        <option value="AB">Arctic Bites</option>
+                        <option value="GW">Guildwood Park</option>
+                        <option value="MR">Midori Ramen</option>
+                    </select>
+                    <br>
+                    <input id="name" type="text" maxlength="20" placeholder="Name" required>
+                    <br>
+                    <input id="date" type="date" required>
+                    <br>
+                    <input id="rating" type="number" min="1" max="5" placeholder="Rating (1-5)" required>
+                    <br>
+                    <textarea id="reviewText" maxlength="60" placeholder=" Review" required></textarea>
+                    <br>
+                    <button type="button" onclick="addReview()">Create</button>
+                  </form>
             </div>
         <script src="js/data.js"></script>
     </body>
