@@ -87,14 +87,15 @@ function reviewCards() {
     const date = document.getElementById("date").value;
     const rating = parseInt(document.getElementById("rating").value);
     const reviewText = document.getElementById("reviewText").value;
-  
-    // Validation
-    if (name == "" || date == "" || rating == "" || reviewText == "") {
+    const location = document.getElementById("location").value;
+
+    if (name === "" || date === "" || isNaN(rating) || reviewText === "") {
       alert("Please enter your information and try again");
       return false;
     }
   
     reviewData.push({
+      location: location,
       name: name,
       date: date,
       rating: rating,
