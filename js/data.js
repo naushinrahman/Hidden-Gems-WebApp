@@ -1,7 +1,7 @@
 
 window.reviewData = [
     {
-        location: 'Guildwood Park',
+        location: 'Guild Park',
         name:'Sarah M.',
         date: '2023/04/10',
         rating: '3',
