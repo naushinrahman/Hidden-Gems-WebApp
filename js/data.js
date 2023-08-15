@@ -2,35 +2,35 @@
 window.reviewData = [
     {
         location: 'Guild Park',
-        name:'Sarah M.',
+        name:'Sarah',
         date: '2023/04/10',
         rating: '3',
         comment: 'Its kinda boring and there isnt much to do here. View is nice and its lowkey but idk if its worth the trek',
     },
     {
         location: 'Grey Abbey Park',
-        name:'Naushin R.',
+        name:'Naushin',
         date: '2023/01/14',
         rating: '5',
         comment: 'Its so peaceful and serene, i love listening to the birds',
     },
     {
         location: 'Midori Ramen',
-        name:'Jermaine R.',
+        name:'Jermaine',
         date: '2023/07/19',
         rating: '4',
         comment: "Theyre garlic ramen is amazing, I'll be sure to come back with my whole family."
     },
     {
         location: 'Arctic Bites',
-        name:'Michael J.',
+        name:'Michael',
         date: '2023/08/09',
         rating: '2',
         comment: 'Ice cream is too sweet and line was wayy too long',
     },
     {
         location: 'Saving Mondays',
-        name:'Giuliana S.',
+        name:'Giuliana',
         date: '2023/08/10',
         rating: '4',
         comment: "Staff as so kind and their cookies are amazing!! Love coming here to work! It's such a cozy and cute space.",
