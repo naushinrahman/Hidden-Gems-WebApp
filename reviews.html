@@ -28,11 +28,11 @@
                 <h2>Add a Review</h2>
                 <form id="reviewForm">
                     <select name="location" id="location">
-                        <option value="GA">Grey Abbey Park</option>
-                        <option value="SM">Saving Mondays</option>
-                        <option value="AB">Arctic Bites</option>
-                        <option value="GW">Guild Park</option>
-                        <option value="MR">Midori Ramen</option>
+                        <option value="Arctic Bites">Arctic Bites</option>
+                        <option value="Grey Abbey Park">Grey Abbey Park</option>
+                        <option value="Guild Park">Guild Park</option>
+                        <option value="Midori Ramen">Midori Ramen</option>
+                        <option value="Saving Mondays">Saving Mondays</option>
                     </select>
                     <br>
                     <input id="name" type="text" maxlength="20" placeholder="Name" required>
@@ -41,7 +41,7 @@
                     <br>
                     <input id="rating" type="number" min="1" max="5" placeholder="Rating (1-5)" required>
                     <br>
-                    <textarea id="reviewText" maxlength="60" placeholder=" Review" required></textarea>
+                    <textarea id="reviewComment" maxlength="140" placeholder="Leave a comment" required></textarea>
                     <br>
                     <button type="button" onclick="addReview()">Create</button>
                   </form>
