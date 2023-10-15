@@ -106,5 +106,4 @@ function reviewCards() {
 
   }
   
-
   window.onload = reviewCards();
